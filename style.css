@@ -1,0 +1,54 @@
+*{ 
+    padding: 0;
+    margin: 0;
+ }
+
+
+body {
+    background-color: rgb(43, 152, 116);
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{color: white; text-align: center;}
+
+.Tarjeta{ 
+    width: 300px;
+    background-color:cornflowerblue;
+    border-radius: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Tarjeta:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    transform: rotate(5deg);
+}
+
+.Tarjeta img{width: 100%;
+object-fit: cover;
+border-radius: 5px;}
+
+.Tarjeta .imagen{ width: 180px; text-align: right;}
+
+.Tarjeta p{color:rgb(15, 9, 1); text-align: center; font-size: 12px;}
+
+#oaxaqueña{color:rgb(216, 190, 195);}
+
+#mexicana{color: rgb(125, 110, 125);}
+
+#española{color: rgb(143, 118, 166);}
+
+#alemana{color: rgb(244, 181, 170);}
+
+#peruana{color: rgb(239, 153, 153);}
